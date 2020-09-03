@@ -1,5 +1,10 @@
 package sort;
 
+/**
+ *
+ *  this is not a bubble sort
+ **/
+@Deprecated
 public interface BubbleSort extends Sort {
 
     @Override

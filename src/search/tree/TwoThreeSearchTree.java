@@ -58,6 +58,11 @@ public class TwoThreeSearchTree<Key, Value> {
         protected Key key;
         protected Value value;
 
+        public Pair(Key key, Value value) {
+            this.key = key;
+            this.value = value;
+        }
+
         public Key key() {
             return key;
         }
